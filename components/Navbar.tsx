@@ -64,7 +64,7 @@ export default function Navbar() {
 
           {/* ── LOGO ── */}
           <button onClick={() => scrollTo("home")} className="flex items-center gap-2 group">
-            <span className="text-xl">🥟</span>
+            {/* <span className="text-xl">🥟</span> */}
             <span className={`font-extrabold text-lg transition ${isLight ? "text-white drop-shadow" : "text-red-600"}`}>
               Risol <span className={isLight ? "text-orange-200" : "text-orange-400"}>Aduuuy</span>
             </span>
