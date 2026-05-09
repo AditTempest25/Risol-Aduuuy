@@ -63,7 +63,7 @@ export default function Footer() {
         {/* BRAND */}
         <div className="md:col-span-1">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-2xl">🥟</span>
+            {/* <span className="text-2xl">🥟</span> */}
             <h2 className="text-xl font-extrabold text-white leading-tight">
               Risol<br />
               <span className="text-orange-300">Aduuuy Cihuyy</span>
