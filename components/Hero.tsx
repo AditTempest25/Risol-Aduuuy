@@ -90,7 +90,7 @@ export default function Hero() {
             className="mt-6 text-white/90 text-lg font-medium leading-relaxed"
           >
             Isian melimpah, kulit renyah,{" "}
-            <span className="font-bold text-white">harga mulai dari 4K aja</span> 🔥
+            <span className="font-bold text-white">harga mulai dari 4K aja !!!</span>
           </motion.p>
 
           {/* TRUST */}

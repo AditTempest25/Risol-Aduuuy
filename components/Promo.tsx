@@ -47,26 +47,26 @@ const promos = [
     badge: "TERPOPULER",
     badgeColor: "bg-yellow-400 text-yellow-900",
   },
-  {
-    emoji: "👥",
-    title: "Paket Bundling 10+",
-    desc: "Pesan 10 risol atau lebih? Harga spesial dan bisa request varian bebas.",
-    highlight: false,
-    cta: "Tanya Harga Bundling",
-    waText: "Halo saya mau tanya paket bundling 10 risol lebih",
-    badge: "HEMAT",
-    badgeColor: "bg-emerald-400 text-emerald-900",
-  },
-  {
-    emoji: "⭐",
-    title: "Pelanggan Setia = Diskon",
-    desc: "Sudah 3x order? Kabarin kami dan dapatkan kejutan diskon khusus!",
-    highlight: false,
-    cta: "Klaim Diskon Setia",
-    waText: "Halo saya pelanggan setia mau klaim diskon khusus",
-    badge: "EKSKLUSIF",
-    badgeColor: "bg-pink-400 text-pink-900",
-  },
+  // {
+  //   emoji: "👥",
+  //   title: "Paket Bundling 10+",
+  //   desc: "Pesan 10 risol atau lebih? Harga spesial dan bisa request varian bebas.",
+  //   highlight: false,
+  //   cta: "Tanya Harga Bundling",
+  //   waText: "Halo saya mau tanya paket bundling 10 risol lebih",
+  //   badge: "HEMAT",
+  //   badgeColor: "bg-emerald-400 text-emerald-900",
+  // },
+  // {
+  //   emoji: "⭐",
+  //   title: "Pelanggan Setia = Diskon",
+  //   desc: "Sudah 3x order? Kabarin kami dan dapatkan kejutan diskon khusus!",
+  //   highlight: false,
+  //   cta: "Klaim Diskon Setia",
+  //   waText: "Halo saya pelanggan setia mau klaim diskon khusus",
+  //   badge: "EKSKLUSIF",
+  //   badgeColor: "bg-pink-400 text-pink-900",
+  // },
 ];
 
 export default function Promo() {
@@ -141,7 +141,7 @@ export default function Promo() {
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
           variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.14 } } }}
-          className="grid md:grid-cols-3 gap-6"
+          className="flex justify-center gap-3"
         >
           {promos.map((p, i) => (
             <motion.div

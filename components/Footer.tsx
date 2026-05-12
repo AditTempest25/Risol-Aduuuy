@@ -39,7 +39,7 @@ export default function Footer() {
       <div className="border-b border-white/10">
         <div className="max-w-6xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
-            <p className="text-white font-extrabold text-lg">Siap order sekarang? 🚀</p>
+            <p className="text-white font-extrabold text-lg">Siap order sekarang?</p>
             <p className="text-white/60 text-sm mt-0.5">Fast respon, fresh hari ini, mulai 4K aja.</p>
           </div>
           <a
